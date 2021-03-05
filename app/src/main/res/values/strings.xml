@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">EXAM_Intent</string>
+    <string name="main">MAIN</string>
+    <string name="back">Go Back</string>
+    <string name="toMainActivity">"toMainActivity "</string>
+    <string name="Previous">Previous</string>
 </resources>
