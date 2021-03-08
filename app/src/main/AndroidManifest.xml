@@ -9,8 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.EXAM_Intent">
-        <activity android:name=".ThirdActivity"></activity>
         <!-- 필요한 액티비티 다 적어줘야 함 -->
+        <activity android:name=".ThirdActivity"></activity>
         <activity android:name=".SecondActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>

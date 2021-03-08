@@ -4,16 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".ThirdActivity">
 
-    <Button
-        android:id="@+id/ThirdBTN"
+    <ImageView
+        android:id="@+id/imageView1"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
+        android:layout_height="match_parent"
         android:layout_weight="1"
         android:onClick="onClick"
-        android:text="@string/Previous"
-        tools:layout_editor_absoluteX="155dp"
-        tools:layout_editor_absoluteY="362dp" />
+        android:scaleType="centerCrop" />
+
 </LinearLayout>
