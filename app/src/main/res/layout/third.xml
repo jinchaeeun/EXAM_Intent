@@ -13,6 +13,8 @@
         android:layout_height="match_parent"
         android:layout_weight="1"
         android:onClick="onClick"
-        android:scaleType="centerCrop" />
+        android:scaleType="center" />
+    <!--사진의 전체화면은 center로 하면 사진의 크기가 화면보다 작아서 여백이 생길 수 있음
+        centercrop으로 하면 화면은 꽉 차나 이미지가 잘려져있음 -->
 
 </LinearLayout>
